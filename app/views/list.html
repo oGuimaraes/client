@@ -1,9 +1,25 @@
 <div ng-controller="ctrl">
   <div ng-repeat="items in list">
     <div>
-      {{items.id}} {{items.nome}} {{items.idade}} {{items.carro}} {{items.habilitacao}}
+
+      <table border="1">
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Veículo</th>
+          <th>Habilitação</th>
+        </tr>
+        <tr>
+          <td>{{items.id}}</td>
+          <td>{{items.nome}}</td>
+          <td>{{items.idade}}</td>
+          <td>{{items.carro}}</td>
+          <td>{{items.habilitacao}}</td>
+        </tr>
+      </table>
+      
     </div>
-    </span>    
   </div>  
 </div> 
 

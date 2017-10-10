@@ -15,8 +15,8 @@ app.controller('ctrl', function($scope) {
       }, {
         id: 3,
         nome: "Italo Jose",
-        idade: 15,
-        carro: "Chevrolet",
+        idade: 16,
+        carro: "Porsche",
         habilitacao: false
       }
   ]
